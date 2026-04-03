@@ -1,0 +1,14 @@
+# feedgen-js:
+#   filters: rjsmin
+#   output: ckanext-feedgen/%(version)s-feedgen.js
+#   contents:
+#     - js/feedgen.js
+#   extra:
+#     preload:
+#       - base/main
+
+# feedgen-css:
+#   filters: cssrewrite
+#   output: ckanext-feedgen/%(version)s-feedgen.css
+#   contents:
+#     - css/feedgen.css
